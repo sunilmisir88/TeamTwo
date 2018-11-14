@@ -166,7 +166,7 @@
 
       var weatherAPIKey = "2bee70835b67699eaad26d5a938fcf32";
 
-      var weatherAPIURL = "http://api.openweathermap.org/data/2.5/forecast/daily?q=" + searchAddress + "&cnt=6" +  //cnt=6 limits the weather forecast to 6 days and searchAddress determines the location
+      var weatherAPIURL = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + searchAddress + "&cnt=6" +  //cnt=6 limits the weather forecast to 6 days and searchAddress determines the location
         "&appid=" + weatherAPIKey;
 
       $.ajax({
